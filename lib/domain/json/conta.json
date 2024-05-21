@@ -1,0 +1,38 @@
+{
+    "idConta": 1,
+    "nome": "Nome da Conta",
+    "data": "2019-04-24",
+    "valorTotal": 0.00,
+    "pessoaFavorita": [
+        {
+            "idpessoaFavorita": 1,
+            "nome": "Nome da pessoa favorita",
+            "comeu": true,
+            "bebeu": false,
+            "gasto": [
+                {
+                    "idGasto": 1,
+                    "valorComida": 0.00,
+                    "valorBebida": 0.00
+                }
+            ],
+            "pagamento": [
+                {
+                    "idPagamento": 1,
+                    "valorComida": 0.00,
+                    "valorBebida": 0.00,
+                    "valorDiverso": 0.00,
+                    "valorAPagar": 0.00,
+                    "pago": true
+                }
+            ]
+        }
+    ],
+    "despesa": [
+        {
+            "idDespesa": 1,
+            "tipo": "Tipo de Despesa",
+            "valor": 0.00
+        }
+    ]
+}
